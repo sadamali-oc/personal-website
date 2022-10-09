@@ -10,6 +10,7 @@ body {
   width: 100%;
   align-content: right;
 
+
 }
 
 .image-wrap {
@@ -23,7 +24,7 @@ body {
 
 .image-wrap img {
   width: 100%;
--ms-animation: move 40s ease;
+  -ms-animation: move 40s ease;
   -webkit-animation: move 40s ease;
   animation: move 40s ease;
 
@@ -81,7 +82,7 @@ body {
   height: 7rem;
   overflow: hidden;
   border: 1px solid rgb(246, 243, 243);
-  color:#192a56;
+  color: #192a56;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   padding: 0;
@@ -90,7 +91,7 @@ body {
 
 .lineUp {
   animation: 2s anim-lineUp ease-out infinite;
-  
+
 }
 
 @keyframes anim-lineUp {
@@ -117,12 +118,13 @@ body {
 .bio {
   margin-top: 10px;
   margin-bottom: 20px;
-  
+  margin-left: 10px;
+
 }
 
 .container {
   position: relative;
-  width: 1200px;
+  width: 100%;
   height: 300px;
   margin: 240px auto;
   margin-bottom: 0%;
@@ -208,9 +210,9 @@ body {
 .content h3 {
   margin: 5 0 10px;
   padding: 4%;
-   color: white;
+  color: white;
   font-size: 24px;
-  
+
 }
 
 .content p {
@@ -228,23 +230,37 @@ body {
 
 .skill-container {
   width: 75%;
-  background-color:#95afc0;
+  background-color: #95afc0;
 }
 
 .skills {
   text-align: right;
-  padding-top: 2px;
-  padding-bottom: 2px;
+
+
 
 
 }
-h3{
+
+.title {
+  color: #192a56;
+  margin-top: 2%;
+
+}
+
+h3 {
+
   font-size: 20px;
+  color: rgb(20, 20, 20);
+}
+
+h5 {
   color: #192a56;
 }
-h1{
+
+h1 {
   color: #192a56;
 }
+
 .html {
   width: 90%;
   background-color: #04AA6D;
@@ -254,10 +270,12 @@ h1{
   width: 80%;
   background-color: #2196F3;
 }
+
 .photoshop {
   width: 70%;
   background-color: #808080;
 }
+
 .wordpress {
   width: 60%;
   background-color: #f44336;
@@ -280,7 +298,7 @@ h1{
   left: 0;
   margin-top: 0%;
   width: 20%;
-  background-color:white;
+  background-color: rgb(253, 251, 251);
 
 }
 
@@ -288,10 +306,11 @@ h1{
 .left {
   right: 0;
   width: 80%;
+  margin-left: 2px;
 
 }
 
-.right-div{
+.right-div {
   height: 900px;
   width: 250px;
   overflow-x: scroll;
@@ -299,7 +318,7 @@ h1{
 
 }
 
-.profile-div{
+.profile-div {
 
 
   width: 250px;
@@ -320,17 +339,19 @@ h1{
 .picture2:hover {
   transform: scale(1.5);
 }
-.name{
+
+.name {
   margin-left: 10px;
-  color: #192a56;
+  color: rgb(11, 11, 11);
 }
+
 h2 {
   margin-top: 5px;
   margin-left: 20px;
   margin-right: 5px;
   align-items: center;
-  font-family:'Lato', sans-serif;
-  
+  font-family: 'Lato', sans-serif;
+
 }
 
 ul li {
@@ -342,26 +363,29 @@ ul li {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-ul{
+
+ul {
   text-align: center;
-    margin: 0;
-    padding: 0;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+  margin: 0;
+  padding: 0;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
-.btn{
+
+.btn {
   margin-left: 30px;
   width: 200px;
   height: 50px;
   font-size: 20px;
   margin-top: 10px;
   color: aliceblue;
-  background-color:#192a56;
+  background-color: #192a56;
 }
+
 .btn:hover {
-  background-color:#192a56;
+  background-color: #196aac;
   color: white;
 }
 
@@ -370,4 +394,163 @@ ul{
   width: 50%;
   margin-top: 6px;
   padding: 20px;
+}
+
+table,
+th,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  padding-top: 2px;
+  padding-left: 2px;
+  width: 60%;
+}
+
+td {
+  font-family: 'Times New Roman', Times, serif;
+  width: 10%;
+}
+
+.title2 {
+  font-size: 90%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #192a56;
+}
+
+.cv {
+  padding-top: 2%;
+  align-items: center;
+  padding-left: 20%;
+  color: white;
+
+}
+
+.btn1 {
+
+  font-size: 30px;
+  margin-top: 1px;
+  color: aliceblue;
+  background-color: #192a56;
+}
+
+.btn1:hover {
+  background-color: #196aac;
+  color: white;
+}
+
+.form-submit-button {
+  background: #B9DFFF;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  height: 50px;
+  width: 100px;
+}
+
+.form-submit-button:hover {
+  background: #042641;
+  color: rgb(255, 255, 255);
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(15, 21, 87);
+  text-shadow: none;
+}
+
+form {
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 0 2px 5px #f5f5f5;
+  background: #f5f5f5;
+
+  margin-top: 3px;
+}
+
+footer {
+  background-color: #192a56;
+  height: 5px;
+height: 100%;
+margin-top: 100%;
+}
+
+.banner-area{
+  margin: 0;
+  padding: 0;
+  background: url("https://i.pinimg.com/originals/a4/b2/a6/a4b2a67a84819dcbc554c9782c74311f.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  
+
+}
+
+.banner-area h3{
+  position: absolute;
+  top: 300%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width: 100%;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  font-family:'Courier New', Courier, monospace;
+  color: #fff;
+  font-size: 4.5em;
+
+}
+
+.a1:hover {
+  color: rgb(248, 251, 248);
+  background-color: transparent;
+  text-decoration: none;
+  
+}
+.a1:link, .a1:visited {
+  
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.a1:hover, .a1:active {
+  background-color: rgb(218, 210, 228);
+}
+
+
+.row_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column_gallery {
+  flex: 50%;
+
+  align-items: center;
+}
+
+.column_gallery img {
+  margin-top: 10px;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.gallery_text {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  ;
+}
+
+.body_gallery {
+  background: url(https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1{
+  width: 300px;
+  height: 300px;
 }
